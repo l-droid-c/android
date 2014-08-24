@@ -1,0 +1,9 @@
+To get build L-Droid, you'll need to get familiar using Git and Repo. If you require help there are plenty of resources and guides.
+
+To initialize your local repository using the L-Droid sources enter this command:
+
+repo init -u git://github.com/L-Droid/android.git -b kitkat
+
+Then to sync your sources, entrer this command:
+
+repo sync 
