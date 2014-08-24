@@ -139,7 +139,7 @@
   <project path="external/embunit" name="CyanogenMod/android_external_embunit" />
   <project path="external/emma" name="CyanogenMod/android_external_emma" />
   <project path="external/esd" name="CyanogenMod/android_external_esd" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
+  <project path="external/exfat" name="android_external_exfat" remote="ld" revision="cm-11.0" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" groups="pdk" />
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" />
@@ -310,7 +310,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="ld" revision="cm-11.0" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="ld" revision="cm-11.0" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ld" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="ld" revision="cm-11.0" />
