@@ -36,7 +36,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="ld" revision="cm-11.0" />
+  <project path="android" name="android" remote="ld" revision="kitkat" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="android_art" remote="ld" revision="cm-11.0" />
