@@ -11,7 +11,7 @@
   <remote  name="ld"
            fetch="https://github.com/L-Droid/" />
 
-  <remote  name="gh"
+  <remote  name="github"
            fetch="https://github.com/" />
 
   <remote  name="private"
@@ -24,7 +24,7 @@
            fetch="git://github.com/SlimRoms/" />
 
   <default revision="cm-11.0"
-           remote="gh"
+           remote="github"
            sync-c="true"
            sync-j="16" />
 
@@ -33,6 +33,8 @@
   </project>
 
   <project path="android" name="android" remote="ld" revision="kitkat" />
+
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="android_art" remote="ld" revision="cm-11.0" />
