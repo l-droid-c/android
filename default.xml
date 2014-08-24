@@ -5,10 +5,6 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
-
   <remote  name="sl"
            fetch="https://github.com/SeniorLimpio/" />
 
@@ -27,8 +23,8 @@
   <remote  name="sr"
            fetch="git://github.com/SlimRoms/" />
 
-  <default revision="refs/heads/cm-11.0"
-           remote="github"
+  <default revision="cm-11.0"
+           remote="gh"
            sync-c="true"
            sync-j="16" />
 
